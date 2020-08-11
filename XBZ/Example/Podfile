@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XBZ_Example' do
+  pod 'XBZ', :path => '../'
+
+  target 'XBZ_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

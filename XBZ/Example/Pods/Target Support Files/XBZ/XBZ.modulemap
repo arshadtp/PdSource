@@ -1,0 +1,6 @@
+framework module XBZ {
+  umbrella header "XBZ-umbrella.h"
+
+  export *
+  module * { export * }
+}
